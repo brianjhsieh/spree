@@ -48,7 +48,7 @@ module Spree
     preference :default_seo_title, :string, :default => ''
     preference :dismissed_spree_alerts, :string, :default => ''
     preference :last_check_for_spree_alerts, :string, :default => nil
-    preference :logo, :string, :default => 'admin/bg/spree_50.png'
+    preference :logo, :string, :default => 'admin/bg/acquia_prosper_logo.jpg'
     preference :max_level_in_taxons_menu, :integer, :default => 1 # maximum nesting level in taxons menu
     preference :orders_per_page, :integer, :default => 15
     preference :prices_inc_tax, :boolean, :default => false
