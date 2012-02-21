@@ -30,12 +30,6 @@
       </header>
 
       <div id="wrapper" class="row" data-hook>
-        
-        <% if content_for?(:sidebar) %>
-          <aside id="sidebar" class="columns alpha four" data-hook>
-            <%= yield :sidebar %>
-          </aside>
-        <% end %>
 
         <div id="content" class="columns omega <% if !content_for?(:sidebar) %> sixteen alpha <% else %> twelve <% end %>" data-hook>
           <%= breadcrumbs(@taxon) %>
